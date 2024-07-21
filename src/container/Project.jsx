@@ -1,21 +1,30 @@
 import ProjectItem from "../components/ProjectItem";
-import video from "../assets/videos/One Piece - Zoro - Sekiro_ Shadows Die Twice Mods - Google Chrome 2023-08-31 17-48-39.mp4"
+import video from "../assets/videos/biddingAuction.mp4"
 
 const projects = [
   {
     id: 1,
-    name: 'Derleng e-commerce',
+    name: 'CS50w Bidding Auction',
     date: 'September 5, 2022',
+    video: video,
+    description: "A user-friendly online bidding auction platform developed using Django, a high-level Python web framework. This platform is designed to facilitate the seamless auctioning of items, allowing users to list items for auction, and place bids.",
+  },
+  {
+    id: 2,
+    name: 'CS50w Mail',
+    date: 'September 5, 2022',
+    // video: "https://www.youtube.com/embed/L8yQu2ot3cw",
     video: video,
     description: "Der-Leng is a web application that provides guide self-post tourism service package and booking tour-guide serivce along with the implements of Authentication with OAuth2 like Google and Facebook, also add functionality of message and Cambodia bank payment.",
   },
   {
-    id: 1,
-    name: 'Derleng e-commerce',
+    id: 3,
+    name: 'CS50w wiki text-base',
     date: 'September 5, 2022',
+    // video: "https://www.youtube.com/embed/4agna7keyrM",
     video: video,
     description: "Der-Leng is a web application that provides guide self-post tourism service package and booking tour-guide serivce along with the implements of Authentication with OAuth2 like Google and Facebook, also add functionality of message and Cambodia bank payment.",
-  }
+  },
 ]
 function Project() {
   return (
@@ -34,7 +43,7 @@ function Project() {
           projects.map((project, index) => {
             return (
               <li>
-                <ProjectItem name={project.name} description={project.description} date={project.date} video={project.video} reverse={index%2 == 1 ? true : false} />
+                <ProjectItem id={project.id} name={project.name} description={project.description} date={project.date} video={project.video} reverse={index%2 == 1 ? true : false} />
                 <div className="my-4 lg:my-12 w-full border-t border-zinc-100 dark:border-zinc-700/40"></div>
               </li>
             )

@@ -17,12 +17,12 @@ function NotFound() {
         <div className="flex justify-center items-center flex-col min-h-screen pb-36 px-[15px] text-center">
           <img className="mx-auto mb-20" src={Img} alt="404" />
           <h3
-            className="text-light-extra dark:text-white60 mb-5 text-6xl ssm:text-5xl xs:text-4xl font-semibold"
+            className="text-light-extra dark:text-white mb-5 text-6xl ssm:text-5xl xs:text-4xl font-semibold"
             as="h3"
           >
             404
           </h3>
-          <p className="text-body dark:text-white60 mb-6 text-lg xs:text-base font-medium">
+          <p className="text-body dark:text-white mb-6 text-lg xs:text-base font-medium">
             Sorry! the page you are looking for does not exist.
           </p>
           <NavLink to="/">
