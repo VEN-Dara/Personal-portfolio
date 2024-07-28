@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import avatar from "../assets/images/derleng-default-profile.png"
+import avatar from "../assets/images/avatar/hanuman.png"
 
 function Navbar() {
   const navbars = [
@@ -104,7 +104,8 @@ function Navbar() {
                             height="512"
                             decoding="async"
                             data-nimg="1"
-                            className="rounded-full shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur transition dark:bg-zinc-800/90 dark:ring-white/10 dark:hover:ring-white/20 bg-zinc-100 object-cover dark:bg-zinc-800 h-10 w-10"
+                            // className="shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur transition dark:bg-zinc-800/90 dark:ring-white/10 dark:hover:ring-white/20 bg-zinc-100 object-cover dark:bg-zinc-800 h-10 w-10"
+                            // className="rounded-full shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur transition dark:bg-zinc-800/90 dark:ring-white/10 dark:hover:ring-white/20 bg-zinc-100 object-cover dark:bg-zinc-800 h-10 w-10"
                             style={{ color: "transparent" }}
                             sizes="4rem"
                             src={avatar}

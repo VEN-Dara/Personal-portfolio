@@ -11,6 +11,7 @@ import figmaIcon from "../assets/images/figma.png";
 import htmlIcon from "../assets/images/html.png";
 import deploymentIcon from "../assets/images/deploy.png";
 import antdIcon from "../assets/images/antd.png";
+import NestJsIcon from "../assets/images/nestjs_logo.png";
 
 const skills = [
   {
@@ -37,6 +38,12 @@ const skills = [
     description: "Skilled in React.js for building dynamic user interfaces.",
   },
   {
+    name: "Nest Js",
+    logo: NestJsIcon,
+    description:
+      "Proficient in Nest Js for api of web development.",
+  },
+  {
     name: "Java",
     logo: javaIcon,
     description:
@@ -53,31 +60,31 @@ const skills = [
     description:
       "Knowledgeable in Tailwind CSS for rapid styling of web applications.",
   },
-  {
-    name: "Figma",
-    logo: figmaIcon,
-    description:
-      "Proficient in Figma for collaborative design, prototyping, and user interface creation.",
-  },
+  // {
+  //   name: "Figma",
+  //   logo: figmaIcon,
+  //   description:
+  //     "Proficient in Figma for collaborative design, prototyping, and user interface creation.",
+  // },
   {
     name: "HTML & CSS",
     logo: htmlIcon,
     description: "Proficient in HTML&CSS for building web page and styling.",
   },
-  {
-    name: "MySQL",
-    logo: mysqlIcon,
-    description: "Experienced in MySQL for database management and querying.",
-  },
-  {
-    name: "PostgreSQL",
-    logo: postgresqlIcon,
-    description: "Familiar with PostgreSQL for relational database management.",
-  },
+  // {
+  //   name: "MySQL",
+  //   logo: mysqlIcon,
+  //   description: "Experienced in MySQL for database management and querying.",
+  // },
+  // {
+  //   name: "PostgreSQL",
+  //   logo: postgresqlIcon,
+  //   description: "Familiar with PostgreSQL for relational database management.",
+  // },
   {
     name: "Deployment",
     logo: deploymentIcon,
-    description: "Knowledgeable in deploying applications for production use.",
+    description: "Knowledgeable in deploying web applications for production use.",
   },
 ];
 
@@ -89,8 +96,7 @@ const SkillList = () => {
           knowledge
         </h1>
         <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400 max-w-2xl text-center">
-          Discover My Expertise: Embark on a journey through my diverse skill
-          set, cultivated over years of studying computer science.
+          Discover my expertise, embark on a journey over the years of studying computer science.
         </p>
         <div className="mt-4 md:mt-8 max-w-[1424px]">
           <ul
