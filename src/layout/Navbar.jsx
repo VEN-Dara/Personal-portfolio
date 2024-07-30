@@ -95,7 +95,7 @@ function Navbar() {
                         aria-label="Home"
                         className="block h-10 w-10 origin-left pointer-events-auto"
                         style={{ transform: "var(--avatar-image-transform)" }}
-                        href="/"
+                        href="/Personal-portfolio/"
                         >
                         <img
                             alt=""

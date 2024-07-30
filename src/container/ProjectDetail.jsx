@@ -81,7 +81,7 @@ const ProjectDetail = () => {
             <h2 className="text-4xl font-semibold tracking-tight text-zinc-800 dark:text-zinc-100 w-full">
               {/* <div className="absolute -inset-x-4 -inset-y-6 z-0 scale-95 bg-zinc-50 opacity-0 transition group-hover:scale-100 group-hover:opacity-100 dark:bg-zinc-800/50 sm:-inset-x-6 sm:rounded-2xl"></div>
               <span className="absolute -inset-x-4 -inset-y-6 z-20 sm:-inset-x-6 sm:rounded-2xl"></span> */}
-              <div className="flex items-center justify-between w-full">
+              <div className="flex flex-col items-center gap-2 lg:gap-0 lg:flex-row lg:items-center lg:justify-between lg:w-full">
                 <span className="relative z-10">{name}</span>
                 <Link to={link} target="_blank" className="bg-black dark:bg-white px-4 py-1 relative z-10 text-white dark:text-black text-base rounded">{link}</Link>
               </div>
